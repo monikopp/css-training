@@ -31,7 +31,7 @@ body {
 .card-group,
 .big-card {
   width: 30vmin;
-  border-radius: 1vmin;
+  border-radius: 2vmin;
 }
 
 .little-card {
@@ -110,7 +110,6 @@ body {
 }
 /* =======BIG CARD HOVER================================= */
 .card-group:hover > .big-card:nth-child(2) {
-  background-color: aqua;
   transform: translate(-75%, 16%) rotate(-24deg);
 }
 .card-group:hover > .big-card:nth-child(4) {
